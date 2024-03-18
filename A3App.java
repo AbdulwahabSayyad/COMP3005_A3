@@ -13,7 +13,6 @@ import java.sql.SQLException;
  */
 
 public class A3App {
-
     //Everything is static as this is mostly a script rather than an OOP app
     public static Connection connection;
     public static final String URL = "jdbc:postgresql://localhost:5432/A3";
@@ -21,7 +20,6 @@ public class A3App {
     public static final String PASSWORD = "postgres";
 
     public static void main(String[] args) {
-
         boolean appFlag = true;
 
         //create the connection
@@ -95,7 +93,6 @@ public class A3App {
         }
 
         scanner.close();
-
     }
 
     /**
@@ -103,7 +100,6 @@ public class A3App {
      */
     public static void getAllStudents() {
         try {
-
             //create prepared statement then execute it. Resultset will contain the records after execution
             PreparedStatement statement = connection.prepareStatement("select * from students");
             ResultSet resultSet = statement.executeQuery();
