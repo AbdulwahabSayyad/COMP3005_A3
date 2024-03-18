@@ -54,4 +54,4 @@ INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 
 ## Video
 
-This is a google drive link to the demo video: 
+This is a google drive link to the demo video: https://drive.google.com/file/d/1vwJ_3Zq3PZZOFRyP2c1JjT-yW0sS1OGp/view?usp=sharing
