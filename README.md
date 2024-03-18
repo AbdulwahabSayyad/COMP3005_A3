@@ -1,4 +1,4 @@
-# Project Name
+# A3 JDBC App
 
 This is a simple console app/script to interact with a PostgreSQL database using the JDBC API.
 
